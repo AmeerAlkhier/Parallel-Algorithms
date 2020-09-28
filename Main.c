@@ -141,7 +141,7 @@ int main(int argc, char **argv) {
 	double *d = NULL;
 	double **ptr;
 	ptr = d;
-	str = (int *)malloc( sizeof(char));
+	str = (int *)malloc( sizeof(double));
 	d = (double*)malloc( sizeof(double));
 	FILE *fp = argc > 1 ? fopen(argv[1], "r") : stdin;
 	FILE *fptr;
